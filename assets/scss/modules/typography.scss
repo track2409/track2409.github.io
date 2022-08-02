@@ -1,0 +1,49 @@
+// @import "../variables/typographies.scss";
+@import "../variables/typography.scss";
+@import "../variables/color.scss";
+
+/*! ++++++      FONT FAMILY    ++++++ */
+
+// @each $fnt-family,
+// $url in $font_family {
+//     @font-face {
+//         font-family: $fnt-family;
+//         src: url($url);
+//     }
+
+//     .font-#{$fnt-family} {
+//         font-family: "#{$fnt-family}" !important;
+//     }
+// }
+
+.algn {
+    &-left {
+        text-align: left;
+    }
+
+    &-right {
+        text-align: right;
+    }
+
+    &-center {
+        text-align: center;
+    }
+
+    &-justify {
+        text-align: justify;
+    }
+}
+
+/*! ++++++      FONT SIZE    ++++++ */
+@each $size in $sizes {
+    .font-#{$size} {
+        font-size: #{$size}px;
+    }
+}
+
+/*! ++++++      FONT WEIGHT    ++++++ */
+@each $wgh-size in $fnt-wgh-sizes {
+    .font-wgh-#{$wgh-size} {
+        font-weight: #{$wgh-size} !important;
+    }
+}

@@ -1,0 +1,13 @@
+/*******************colors******************/
+
+$color-primary: #428BCA; // For steps with primary color
+$color-warning: #F6A800; // For steps with warning color
+$text-color-01: #9499A1; // For steps status info, countries and times
+$text-color-02: #696F77; // For first top title
+$text-color-03: #1C345D; // For steps status and dates
+$background-color-body: #FFFFFF;
+
+$invert-ic-clr-primary: invert(45%) sepia(69%) saturate(470%) hue-rotate(166deg) brightness(97%) contrast(87%);
+
+// ICONS
+$ic-clr-primary: var($invert-ic-clr-primary);

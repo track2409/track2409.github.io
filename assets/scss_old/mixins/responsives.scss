@@ -1,0 +1,141 @@
+// (320x480) iPhone (Original, 3G, 3GS) @mixin media-320-and-480() {}
+@mixin media-320-and-480() {
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        /* insert styles here */
+    }
+}
+
+// (320x480) Smartphone, Portrait
+@mixin media-320-and-portrait() {
+    @media only screen and (device-width: 320px) and (orientation: portrait) {
+        /* insert styles here */
+    }
+}
+
+// (320x480) Smartphone, Landscape
+@mixin media-480-and-landscape() {
+    @media only screen and (device-width: 480px) and (orientation: landscape) {
+        /* insert styles here */
+    }
+}
+
+// (480x800) Android
+@mixin media-480-and-800() {
+    @media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+        /* insert styles here */
+    }
+}
+
+// (640x960) iPhone 4 & 4S
+@mixin media-640-and-960() {
+    @media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+        /* insert styles here */
+    }
+}
+
+// (720x1280) Galaxy Nexus, WXGA
+@mixin media-720-and-1280() {
+    @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+        /* insert styles here */
+    }
+}
+
+// (720x1280) Galaxy Nexus, Landscape
+@mixin media-720-and-1280-and-landscape() {
+    @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+        /* insert styles here */
+    }
+}
+
+// (1024x768) iPad 1 & 2, XGA
+@mixin media-768-and-1024() {
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        /* insert styles here */
+    }
+}
+
+// (768x1024) iPad 1 & 2, Portrait
+@mixin media-768-and-1024-and-portrait() {
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+        /* insert styles here */
+    }
+}
+
+// (768x1024) iPad 1 & 2, Landscape
+@mixin media-768-and-1024-and-landscape() {
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+        /* insert styles here */
+    }
+}
+
+// (2048x1536) iPad 3
+@mixin media-1536-and-2048() {
+    @media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
+        /* insert styles here */
+    }
+}
+
+// (1280x720) Galaxy Note 2, WXGA
+@mixin media-720-and-1280() {
+    @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+        /* insert styles here */
+    }
+}
+
+// (1366x768) WXGA Display
+@mixin media-max-720() {
+    @media screen and (max-width: 1366px) {
+        /* insert styles here */
+    }
+}
+
+// (1280x1024) SXGA Display
+@mixin media-max-1280() {
+    @media screen and (max-width: 1280px) {
+        /* insert styles here */
+    }
+}
+
+// (1440x900) WXGA+ Display
+@mixin media-max-1440() {
+    @media screen and (max-width: 1440px) {
+        /* insert styles here */
+    }
+}
+
+// (1680x1050) WSXGA+ Display
+@mixin media-max-1680() {
+    @media screen and (max-width: 1680px) {
+        /* insert styles here */
+    }
+}
+
+// (1920x1080) Full HD Display
+@mixin media-max-1920() {
+    @media screen and (max-width: 1920px) {
+        /* insert styles here */
+    }
+}
+
+// (1600x900) HD+ Display
+@mixin media-max-1600() {
+    @media screen and (max-width: 1600px) {
+        /* insert styles here */
+    }
+}
+
+//
+@mixin media-max-1024($margin-bottom, $width) {
+    @media screen and (max-width: 1024px) {
+        margin-bottom: #{$margin-bottom};
+        width: #{$width};
+    }
+}
+
+//
+@mixin media-max-768($margin-bottom, $width) {
+    @media screen and (max-width: 768px) {
+        margin-bottom: #{$margin-bottom};
+        width: #{$width};
+    }
+}

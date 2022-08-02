@@ -1,0 +1,27 @@
+body {
+    background-image: url("../images/bg_web.png");
+    // background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-size: 46px;
+}
+
+label {
+    font-size: 30px;
+}
+
+a {
+    // color: $background-color-body-3;
+    cursor: pointer;
+}
+
+hr {
+    width: 6.5%;
+    position: relative;
+    border: none;
+    height: 7px;
+    // background: $color-primary;
+    border-radius: 7px 7px 7px 7px;
+}

@@ -1,0 +1,31 @@
+.basic-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+
+    &-right {
+        justify-content: right;
+    }
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    // background-color: #f1f1f1;
+  }
+  
+  .flex-container > div {
+    border-radius: 10px;
+    background-color: DodgerBlue;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    height: 200px;
+  }

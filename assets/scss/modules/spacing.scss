@@ -1,0 +1,58 @@
+// @each $size in $sizes {
+//     .h-#{$size}p {
+//         height: #{$size}px !important;
+//     }
+// }
+
+
+// .pdtb {
+//     @each $spacing in $spacing {
+//         &-#{$spacing} {
+//             padding-top: $spacing * 1%;
+//             padding-bottom: $spacing * 1%;
+//         }
+//     }
+
+//     &-x {
+//         padding-top: unset !important;
+//         padding-bottom: unset !important;
+//     }
+// }
+
+// .mgtb {
+//     @each $spacing in $spacing {
+//         &-#{$spacing} {
+//             margin-top: $spacing * 1%;
+//             margin-bottom: $spacing * 1%;
+//         }
+//     }
+
+//     &-x {
+//         margin-top: unset !important;
+//         margin-bottom: unset !important;
+//     }
+// }
+
+// .mgl {
+//     @each $spacing in $spacing {
+//         &-#{$spacing} {
+//             margin-left: $spacing * 1%;
+//         }
+//     }
+
+//     &-x {
+//         margin-left: unset !important;
+//     }
+// }
+
+// .mgr {
+//     @each $spacing in $spacing {
+//         &-#{$spacing} {
+//             margin-right: $spacing * 1%;
+//         }
+//     }
+
+//     &-x {
+//         margin-right: unset !important;
+//     }
+// }

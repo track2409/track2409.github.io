@@ -1,0 +1,19 @@
+.ic {
+    width: 20px;
+    margin-top: 9px;
+    margin-left: 1px;
+    filter: invert(45%) sepia(69%) saturate(470%) hue-rotate(166deg) brightness(97%) contrast(87%);
+
+    &-check {
+        content: url(../scss/icons/ic-check.svg);
+    }
+
+    &-pin {
+        content: url(../scss/icons/ic-pin.svg);
+    }
+
+    // ICON FILTER COLOR
+    &-clr-primary {
+        filter: $ic-clr-primary;
+    }
+}
